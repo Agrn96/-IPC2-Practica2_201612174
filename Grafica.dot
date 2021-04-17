@@ -1,0 +1,13 @@
+digraph Agenda {
+	node [shape=record]
+	edge [dir=both]
+	A1 [label="Nombre: a\nApellido: a\nTelefono: 12341234"]
+	A2 [label="Nombre: b\nApellido: b\nTelefono: 12344321"]
+	A1 -> A2
+	A3 [label="Nombre: c\nApellido: c\nTelefono: 12345678"]
+	A2 -> A3
+	A4 [label="Nombre: d\nApellido: d\nTelefono: 12342345"]
+	A3 -> A4
+	A5 [label="Nombre: j\nApellido: d\nTelefono: 54322345"]
+	A4 -> A5
+}
